@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+header {
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+header {
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input,
+button {
+  margin: 1rem;
+  background: lightblue;
+  border: none;
+  padding: 1rem;
+  width: 30%;
+  font-size: 1.2rem;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.results {
+  background: lightblue;
+  width: 30%;
+  font-size: 1.2rem;
+
+  p {
+    padding: 10px;
+  }
+
+  .total {
+    background: lightgray;
+  }
+}
